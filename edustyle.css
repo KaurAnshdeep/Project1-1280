@@ -1,0 +1,142 @@
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    background:maroon;
+  }
+
+  /* Link Styles */
+  
+  a {
+    text-decoration: none;
+    color:white;
+  }
+  a:hover {
+    color: rgb(248, 190, 199);
+  }
+  
+  /* Section Styles */
+  
+  .main-nav {
+    width: 100%;
+    background: rgb(223, 170, 37);
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    
+  }
+  .nav {
+    display: flex;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a:hover {
+  color:maroon;
+}
+#masthead { 
+    background-color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: maroon;
+    border:6px solid rgb(219, 167, 33);
+    border-radius: 8px;
+ } 
+ 
+ img{
+     border-radius: 8px;
+     border: 6px solid rgb(218, 165, 34);
+     box-shadow: 0 8px 10px 0 rgb(218, 165, 33),0 8px 20px 0 rgb(212, 161, 33);
+ }
+#content { 
+     background-color:maroon;
+     padding: 60px;
+ }   
+
+h3 {
+    font-style: normal;
+    font-weight: normal;
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 180%;
+    }
+h2, h3, p {
+     margin: 0; 
+     padding: 10px;
+    }
+li { 
+    margin-left: 3px;
+ }    
+
+ footer {
+    width: 100%;
+    min-height: 30px;
+    padding: 20px 0 40px 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .4;
+    transition: all .5s;
+  }
+  a.snapchat {
+    background-image: url(snapchat-logo.png);
+  }
+  a.instagram {
+    background-image: url(Instagram_logo_2016.svg.png);
+  }
+  a.outlook {
+    background-image: url(Microsoft_Outlook_2013-2019_logo.svg.png);
+  }
+  a.social:hover {
+    opacity: 1;
+  }
+  .clearfix {
+    clear: both;
+  }
+  
+  /* Styles for larger screens */
+  @media screen and (min-width: 720px) {
+  
+    .nav {
+      max-width: 1200px;
+      padding: 0 30px;
+    }
+
+    footer {
+      font-size: 1.3em;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+  
+  } 
